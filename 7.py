@@ -1,0 +1,5 @@
+entry = input("Entry : ")
+entry = float(entry)
+print(entry)
+entry = int(entry)
+print(entry)
