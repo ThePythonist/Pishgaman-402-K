@@ -18,29 +18,26 @@
 
 # try:
 #     # x = int("ali")
-#     print(x)
-#     # print([1,2,3][4])
+#     # print(x)
+#     print([1,2,3][4])
 # except (NameError, ValueError, IndexError):
 #     print("Something went wrong")
 
 # ------------------------------------------------
 
+# number = input("Enter any number : ")
 # try:
-#     # x = int("ali")
-#     # print(x)
-#     print([1,2,3][4])
-# except (NameError, ValueError, IndexError) as error:
-#     print("Something went wrong")
-#     print(error)
+#     number = int(number)
+#     print("It is a number")
+# except:
+#     print("It is not a number")
 
 # ------------------------------------------------
 
 try:
     x = int("ali")
     print("It is a number")
-except:
-# except Exception as error:
-    # print(error)
-    print("Something went wrong")
+except Exception as khata:
+    print(khata)
 
 print("edameye barname")
